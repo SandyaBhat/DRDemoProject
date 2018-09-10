@@ -4,7 +4,7 @@
              description="Specify the endpoint URL for the welcome API 
                           service in the destination environment"
              defaultValue="http://drdemowebsite-primary.northeurope.cloudapp.azure.com:8080/demorestapi/api/welcome">
-    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$"
-                    match="/configuration/appSettings/add[@key='ServiceURL']"/>
+    <parameterEntry kind="XmlFile" scope="\\Web\.config$"
+                    match="/configuration/appSettings/add[@key='ServiceURL']/@value"/>
   </parameter>
 </parameters>
