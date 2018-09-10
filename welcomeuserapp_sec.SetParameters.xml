@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/welcomeapp" />
+  <setParameter
+    name="welcome API Endpoint Address"
+    value="http://drdemowebsite-secondary.northeurope.cloudapp.azure.com:8080/demorestapi/api/welcome" />
+</parameters>
